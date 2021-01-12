@@ -1,6 +1,9 @@
 package cn.edu.hcnu.dto;
 
+import java.util.Set;
+
 public class Order {
+    private String id;
     private String jpjg; //机票价格
     private float airPortTax; //机场税
     private float ryf; //燃油费
@@ -8,7 +11,7 @@ public class Order {
     private float jptgx; //机票退改险
     private float yhq; //优惠券
     private float hszj; //含税总价
-    private Customer customers[];
+     Set<Customer> customers;
 
     public String getJpjg() {
         return jpjg;
@@ -66,11 +69,11 @@ public class Order {
         this.hszj = hszj;
     }
 
-    public Customer[] getCustomers() {
+    public Set<Customer> getCustomers() {
         return customers;
     }
 
-    public void setCustomers(Customer[] customers) {
+    public void setCustomers(Set<Customer> customers) {
         this.customers = customers;
     }
 }

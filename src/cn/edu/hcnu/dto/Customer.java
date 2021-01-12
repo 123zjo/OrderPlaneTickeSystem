@@ -1,12 +1,16 @@
 package cn.edu.hcnu.dto;
 
+import java.util.Date;
+import java.util.Set;
+
 public class Customer {
     private String id;
     private String customerType; //旅客类型：成人、儿童、婴儿
     private String name;
-    private String cardId;
+    private String cardId;  //身份证号码
     private String phone;
-
+    private Date birthDate;  //出生日期
+    private Set<Order> orders;
     public String getId() {
         return id;
     }
