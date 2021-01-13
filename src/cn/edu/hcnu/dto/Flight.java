@@ -92,14 +92,12 @@ public class Flight {
     @Override
     public String toString() {
         return "Flight{" +
-                "id='" + id + '\'' +
-                ", flightId='" + flightId + '\'' +
-                ", departureAirport='" + departureAirport + '\'' +
-                ", destinationAirport='" + destinationAirport + '\'' +
-                ", departureTime='" + departureTime + '\'' +
-                ", destinationTime='" + destinationTime + '\'' +
-                ", planType='" + planType + '\'' +
-                ", currentSeatsNum=" + currentSeatsNum +
+                "航班编号='" + flightId + '\'' +
+                ", 出发机场='" + departureAirport + '\'' +
+                ", 到达机场='" + destinationAirport + '\'' +
+                ", 到达时间='" + departureTime + '\'' +
+                ", 飞机机型='" + planType + '\'' +
+                ", 座位数=" + currentSeatsNum +
                 '}';
     }
 }

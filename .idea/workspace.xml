@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdc4c8ed-efb3-4f57-a2d3-4ddea6aa6c64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlieghtDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FligthDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/tools/JDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderPlaneTickeSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderPlaneTickeSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlieghtDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlieghtDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FligthDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FligthDaoImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dto/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="F:/安装包/ojdbc6.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="MainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -93,18 +96,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610349011515</updated>
-      <workItem from="1610349019919" duration="14856000" />
+      <workItem from="1610349019919" duration="18010000" />
+      <workItem from="1610496348485" duration="13566000" />
     </task>
+    <task id="LOCAL-00001" summary="1.项目结构搭建&#10;2.创建了IFlight、IFlightDao接口">
+      <created>1610452637347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610452637347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.项目结构搭建&#10;2.创建了IFlight、IFlightDao接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.项目结构搭建&#10;2.创建了IFlight、IFlightDao接口" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1610442736630">
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1610453129912">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610442736630" />
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610453129912" />
+    <state x="383" y="23" key="CommitChangelistDialog2" timestamp="1610452635296">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="383" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610452635296" />
+    <state x="495" y="174" key="FileChooserDialogImpl" timestamp="1610502135099">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610502135099" />
     <state x="629" y="320" key="Github.ShareDialog" timestamp="1610366480529">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -113,14 +137,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="557" y="134" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610366486585" />
-    <state x="301" y="71" key="SettingsEditor" timestamp="1610366451078">
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1610531839969">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="71" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610366451078" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1610444100524">
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610531839969" />
+    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1610531839969">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610444100524" />
+    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610531839969" />
+    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1610531839969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610531839969" />
+    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1610531839969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610531839969" />
+    <state x="301" y="8" key="SettingsEditor" timestamp="1610525830294">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610525830294" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1610452653836">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610452653836" />
+    <state x="480" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1610496348485">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610496348485" />
+    <state x="269" y="125" key="new project wizard" timestamp="1610499114008">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="269" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1610499114008" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1610423099939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
